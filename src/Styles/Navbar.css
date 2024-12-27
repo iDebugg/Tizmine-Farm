@@ -1,0 +1,11 @@
+.connectwithMe{
+    background: linear-gradient(267deg, #23da26 0.36%, #03750f 100%);
+    transition: 0.5s;
+}
+.connectwithMe:hover{
+transform: scale(1.05);
+}
+.tizminelogo{
+    height: 40px;
+    width: 40px;
+}
