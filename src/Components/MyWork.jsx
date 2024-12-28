@@ -1,51 +1,74 @@
 import React from 'react'
 import "../Styles/MyWork.css";
-import image1 from '../assets/Screenshot 2024-10-30 at 5.06.45 PM.png'
-import image2 from '../assets/Hero.svg'
-import image3 from '../assets/Home Page.svg'
-import image4 from '../assets/Home Page1.svg'
-import image5 from '../assets/Screenshot 2024-10-29 at 7.05.12 PM.png'
-import image6 from '../assets/Screenshot 2024-10-30 at 5.04.24 PM.png'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import image1 from '../assets/fishfarmingg.jpg'
+import image2 from '../assets/Catfish.webp'
+import image3 from '../assets/poultryChicken.webp'
+import image4 from '../assets/turkeysinmd_jpegc37bd64551ecc92f4818e497bd9c57b1.jpeg'
+import image5 from '../assets/nigerian-cattle.jpg'
+import image6 from '../assets/Cows.jpg'
+import image7 from '../assets/Eggspics.jpeg'
+import image8 from '../assets/Turkey.jpg'
+import image9 from '../assets/cassava_ogbomoso3_jpegc1b80459de59f66bd6fc83e4f846403e.jpeg'
 
 
 const MyWork = () => {
+  const images = [
+    { src: image1, alt: "Farm View 1" },
+    { src: image2, alt: "Farm View 2" },
+    { src: image3, alt: "Farm View 3" },
+    { src: image4, alt: "Farm View 4" },
+    { src: image5, alt: "Farm View 5" },
+    { src: image6, alt: "Farm View 6" },
+    { src: image7, alt: "Farm View 7" },
+    { src: image8, alt: "Farm View 8" },
+    { src: image9, alt: "Farm View 9" },
+  ];
+
   return (
-    <div id='Portfolio' className='mywork display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8 mt-20'>
-        <div className="mywork-title">
-            <h1 className='text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl'>My latest work </h1>
-        </div>
-        <div className="services-container text-center about-sections grid grid-cols-1 sm:grid-cols-2 lg:flex gap-4 mt-20">
-            <div className="mywork-format">
-                <img src={image1} alt=""/>
-              </div>
-            <div className="mywork-format">
-            <img src={image2} alt=""/>
-               </div>
-            <div className="mywork-format">
-            <img src={image3} alt=""/>
-            </div>
-            
-            
-        </div>
-        <div className="services-container text-center about-sections grid grid-cols-1 sm:grid-cols-2 lg:flex gap-4 mt-5">
-          <a href="https://cemperium-web.vercel.app/">
-          <div className="mywork-format">
-                <img src={image4} alt=""/>
-              </div>
-          </a>
-            
-            <div className="mywork-format">
-            <img src={image5} alt=""/>
-               </div>
-            <div className="mywork-format">
-            <img src={image6} alt=""/>
-            </div>
-            
-            
+    <section id='Portfolio' className="py-12 bg-gray-100 pb-10">
+      <div className="container mx-auto px-4">
+
+        <div className="text-center mb-10">
+          <h2 className="text-green-700 italic text-4xl font-bold">Gallery</h2>
+          <p className="text-lg text-gray-600 mt-2">
+            Explore our farm, animals, and products up close.
+          </p>
         </div>
 
-    </div>
-  )
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={20}
+          slidesPerView={1} 
+          breakpoints={{
+            640: { slidesPerView: 1 }, 
+            768: { slidesPerView: 2 }, 
+            1024: { slidesPerView: 3 },
+          }}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }} 
+          className="rounded-lg overflow-hidden"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="h-60 sm:h-80">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
 }
 
 export default MyWork

@@ -31,7 +31,7 @@
     -webkit-text-fill-color: transparent;
 }
 .contact-left h1{
-    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background: linear-gradient(270deg, #0b4f03 80%, #0eb73e 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,25 +47,19 @@
     margin-top: 20px;
 }
 .contact-right button{
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background: #ffff;
     transition: 0.3s;
+    color: #0b4f03;
     cursor: pointer;
+    border: 2px solid green;
 }
 .contact-right button:hover{
    transform: scale(1.1);
    transition: 0.3s;
 }
-.footer-subscribe{
-    cursor: pointer;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    transition: 0.3s;
-}
-.footer-subscribe:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
- }
+
  .hugg{
-    width: 30px;
+    width: 40px;
     margin-top: -10px;
     
  }

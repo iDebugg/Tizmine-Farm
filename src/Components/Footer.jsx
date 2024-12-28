@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="footer display: flex flex-col gap-8 pr-6 pl-6">
+    <div className="footer bg-gray-100 display: flex flex-col gap-8 pr-6 pl-6">
         {/* <div className="footer-top grid grid-cols-1 sm:grid-cols-2 lg:flex justify-between gap-4">
             <div className="footer-top-left">
                 <p className='max-w-2xl text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl'>I am a frontend developer from Lagos, Nigeria with over 4 years of experience in multiple personal freelance and companies projects</p>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div> */}
         <hr /> 
         <div className="footer-bottom display: flex justify-between mb-5">
-            <p className='footer-bottom-left'>© 2024 Aderibigbe Victor. All rights reserved. </p>
+            <p className='footer-bottom-left'>© 2024 Tizmine Farm. All rights reserved. </p>
             <div className="footer-bottom-right display: flex gap-3">
                 {/* <p>Terms of services</p>
                 <p>Privacy policy</p> */}

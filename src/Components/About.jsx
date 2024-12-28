@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Styles/About.css'
-import ProfileImg from '../assets/IMG_3608 3.jpg'
+
 const About = () => {
   return (
     <div id='about' className='about bg-gray-100 display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8 pt-10'>
         <div className="about-title">
-            <h1 className='text-green-700 italic text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl'>About Us</h1>
+            <h1 className='text-green-700 italic text-4xl font-bold'>About Us</h1>
 
         </div>
         <div className="text-center about-sections grid grid-cols-1 sm:grid-cols-2 lg:flex gap-5 mt-20 pb-40">

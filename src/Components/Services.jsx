@@ -14,7 +14,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         {/* Section Heading */}
         <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold text-gray-800">Our Services</h2>
+          <h2 className="text-green-700 italic text-4xl font-bold">Our Services</h2>
           <p className="text-lg text-gray-600 mt-2">
             High-quality poultry, livestock, and fresh produce delivered with care.
           </p>
@@ -35,7 +35,7 @@ const Services = () => {
                 Farm-fresh eggs packed with nutrients and flavor.
               </p>
               <p className="text-green-500 font-semibold mt-4">Price Vary</p>
-              <button className="mt-4 w-full px-4 py-2 bg-green-500 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/but5j8">Contact to Order</a>
+              <button className="mt-4 w-full px-4 py-2 bg-green-700 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/but5j8">Contact to Order</a>
               
               </button>
             </div>
@@ -54,7 +54,7 @@ const Services = () => {
                 Free-range chickens raised with care.
               </p>
               <p className="text-green-500 font-semibold mt-4">Price Vary</p>
-              <button className="mt-4 w-full px-4 py-2 bg-green-500 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/1zo0c9">Contact to Order</a>
+              <button className="mt-4 w-full px-4 py-2 bg-green-700 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/1zo0c9">Contact to Order</a>
               </button>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Services = () => {
                 High-yielding cows for fresh milk production.
               </p>
               <p className="text-green-500 font-semibold mt-4">Price Vary</p>
-              <button className="mt-4 w-full px-4 py-2 bg-green-500 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/53oco5">Contact to Order</a>    
+              <button className="mt-4 w-full px-4 py-2 bg-green-700 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/53oco5">Contact to Order</a>    
               </button>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Services = () => {
               Free-range chickens raised with care.
               </p>
               <p className="text-green-500 font-semibold mt-4">Price Vary</p>
-              <button className="mt-4 w-full px-4 py-2 bg-green-500 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/hpxip7"> Contact to Order</a>
+              <button className="mt-4 w-full px-4 py-2 bg-green-700 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/hpxip7"> Contact to Order</a>
               </button>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Services = () => {
                 Well fed and healthy cat fish.
               </p>
               <p className="text-green-500 font-semibold mt-4">Price Vary</p>
-              <button className="mt-4 w-full px-4 py-2 bg-green-500 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/dcbhon"> Contact to Order</a>
+              <button className="mt-4 w-full px-4 py-2 bg-green-700 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/dcbhon"> Contact to Order</a>
               </button>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Services = () => {
                 Nutritious and hygenic frozen foods
               </p>
               <p className="text-green-500 font-semibold mt-4">Price Vary</p>
-              <button className="mt-4 w-full px-4 py-2 bg-green-500 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/03l3a2">Contact to Order</a>
+              <button className="mt-4 w-full px-4 py-2 bg-green-700 text-white text-sm font-semibold rounded hover:bg-green-600 transition-colors"><a href="https://wa.link/03l3a2">Contact to Order</a>
                
               </button>
             </div>

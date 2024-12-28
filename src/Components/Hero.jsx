@@ -28,11 +28,11 @@ const Hero = () => {
         Quality Poultry & Livestock, Sustainably Raised.
       </p>
       <div className="mt-6">
-        <button className="px-6 py-3 bg-green-500 hover:bg-green-600 rounded-md text-lg font-semibold">
-          Learn More
+        <button className="px-6 py-3 bg-green-500 hover:bg-green-600 rounded-md text-lg font-semibold"><AnchorLink className='anchor-link' offset={50} href='#about'>Learn More</AnchorLink>
+          
         </button>
-        <button className="ml-4 px-6 py-3 bg-transparent border-2 border-green-600 hover:bg-green-700 hover:text-white rounded-md text-lg font-semibold">
-          Contact Us
+        <button className="ml-4 px-6 py-3 bg-transparent border-2 border-green-600 hover:bg-green-700 hover:text-white rounded-md text-lg font-semibold"><AnchorLink className='anchor-link' offset={50} href='#contact'> Contact Us</AnchorLink>
+         
         </button>
       </div>
     </div>
