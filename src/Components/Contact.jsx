@@ -4,7 +4,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "d161a33e-2e53-4cf3-ae11-6cfe74e4367d");
+    formData.append("access_key", "10a13b63-73e9-43ec-8ed8-830f7036dc96");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -71,7 +71,7 @@ const Contact = () => {
             type="text"
             placeholder="Enter your name"
             name="name"
-            className="bg-green-900 p-2 rounded-lg border-none	outline-none min-w-80"
+            className="bg-green-900 p-2 text-white rounded-lg border-none	outline-none min-w-80"
           />
           <label htmlFor="" className="text-gray-400">
             Your Email
@@ -80,7 +80,7 @@ const Contact = () => {
             type="email"
             placeholder="Enter your email"
             name="email"
-            className="bg-green-900  p-2 rounded-lg border-none	outline-none min-w-80"
+            className="bg-green-900  p-2 rounded-lg text-white border-none	outline-none min-w-80"
           />
           <label htmlFor="" className="text-gray-400">
             Write your message here
@@ -89,7 +89,7 @@ const Contact = () => {
             name="message"
             rows="8"
             placeholder="Enter your message"
-            className="border-none	outline-none rounded-xl p-2 bg-green-900  min-w-80"
+            className="border-none	outline-none rounded-xl p-2 text-white bg-green-900  min-w-80"
           ></textarea>
           <button
             type="submit"
