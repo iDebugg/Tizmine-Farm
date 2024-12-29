@@ -27,7 +27,7 @@ const About = () => {
                       <li>Farm Keeper - James Emmanuel.</li>
                       <li>Veterinary Doctor - Akindele Toba.</li>
                       <li>Miller/Workers - Olaji Farm Services.</li>
-                      <h4>TIZMINE FARMS. <br /> RC: 3727116.</h4>
+                      <h4>TIZMINE FARMS. </h4>
                       
                   </div>
               </div>
