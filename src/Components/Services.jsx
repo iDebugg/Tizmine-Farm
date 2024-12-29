@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <section id='Services' className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
-        {/* Section Heading */}
+    
         <div className="text-center mb-10">
           <h2 className="text-green-700 italic text-4xl font-bold">Our Services</h2>
           <p className="text-lg text-gray-600 mt-2">
@@ -20,17 +20,17 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Services Grid */}
+       
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Card 1 */}
+        
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src={eggs} // Replace with actual image URL
+              src={eggs} 
               alt="Fresh Eggs"
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold text-gray-800">Fresh Eggs</h3>
+              <h3 className="text-lg font-bold text-gray-800">Crate of Eggs</h3>
               <p className="text-sm text-gray-600 mt-2">
                 Farm-fresh eggs packed with nutrients and flavor.
               </p>
@@ -41,15 +41,14 @@ const Services = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src={chicken} // Replace with actual image URL
+              src={chicken} 
               alt="Healthy Chickens"
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold text-gray-800">Healthy Chickens</h3>
+              <h3 className="text-lg font-bold text-gray-800">Broiler Chickens</h3>
               <p className="text-sm text-gray-600 mt-2">
                 Free-range chickens raised with care.
               </p>
@@ -59,10 +58,10 @@ const Services = () => {
             </div>
           </div>
 
-          {/* Card 3 */}
+         
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src={cows} // Replace with actual image URL
+              src={cows} 
               alt="Dairy Cow"
               className="w-full h-48 object-cover"
             />
@@ -78,12 +77,12 @@ const Services = () => {
           </div>
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src={turkey} // Replace with actual image URL
+              src={turkey} 
               alt="turkey"
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold text-gray-800">Healthy Turkey</h3>
+              <h3 className="text-lg font-bold text-gray-800">Foreign Turkey</h3>
               <p className="text-sm text-gray-600 mt-2">
               Free-range chickens raised with care.
               </p>
@@ -94,7 +93,7 @@ const Services = () => {
           </div>
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src={fish} // Replace with actual image URL
+              src={fish} 
               alt="fish"
               className="w-full h-48 object-cover"
             />
@@ -110,7 +109,7 @@ const Services = () => {
           </div>
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src={frozenfoods} // Replace with actual image URL
+              src={frozenfoods} 
               alt="Dairy Cow"
               className="w-full h-48 object-cover"
             />

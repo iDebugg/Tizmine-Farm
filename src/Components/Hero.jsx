@@ -22,7 +22,7 @@ const Hero = () => {
     {/* Content */}
     <div className="relative z-10 text-center px-4">
       <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-        Welcome to <span className="text-green-500">Tizmine Farm</span>
+        Welcome to <span className="text-green-500">Tizmine Farms</span>
       </h1>
       <p className="mt-4 text-lg md:text-xl">
         Quality Poultry & Livestock, Sustainably Raised.

@@ -14,6 +14,14 @@ import image6 from '../assets/Cows.jpg'
 import image7 from '../assets/Eggspics.jpeg'
 import image8 from '../assets/Turkey.jpg'
 import image9 from '../assets/cassava_ogbomoso3_jpegc1b80459de59f66bd6fc83e4f846403e.jpeg'
+import image10 from '../assets/image1.jpeg'
+import image11 from '../assets/image2.jpeg'
+import image12 from '../assets/image3.jpeg'
+import image13 from '../assets/image4.jpeg'
+import image14 from '../assets/image5.jpeg'
+import image15 from '../assets/image6.jpeg'
+import image16 from '../assets/image7.jpeg'
+import image17 from '../assets/image8.jpeg'
 
 
 const MyWork = () => {
@@ -27,6 +35,14 @@ const MyWork = () => {
     { src: image7, alt: "Farm View 7" },
     { src: image8, alt: "Farm View 8" },
     { src: image9, alt: "Farm View 9" },
+    { src: image10, alt: "Farm View 10" },
+    { src: image11, alt: "Farm View 11" },
+    { src: image12, alt: "Farm View 12" },
+    { src: image13, alt: "Farm View 13" },
+    { src: image14, alt: "Farm View 14" },
+    { src: image15, alt: "Farm View 15" },
+    { src: image16, alt: "Farm View 16" },
+    { src: image17, alt: "Farm View 17" },
   ];
 
   return (
