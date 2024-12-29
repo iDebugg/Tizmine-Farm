@@ -18,7 +18,7 @@ const Footer = () => {
         <hr /> 
         <div className="footer-bottom display: GRID justify-between mb-5">
         <p className='footer-bottom-left'>RC NUMBER: 3727483</p>
-            <p className='footer-bottom-left'>© 2024 Tizmine Farm. All rights reserved. </p>
+            <p className='footer-bottom-left'>© 2024 Tizmine Farms. All rights reserved. </p>
             <div className="footer-bottom-right display: flex gap-3">
                 {/* <p>Terms of services</p>
                 <p>Privacy policy</p> */}
