@@ -38,7 +38,7 @@ const Contact = () => {
             Lets talk
           </h1>
           <p className="max-w-xl">
-            I am currently available to supply fresh poultry products and take
+            We are currently available to supply fresh poultry products and take
             on bulk orders. Feel free to contact me anytime for quality poultry
             and reliable service!
           </p>

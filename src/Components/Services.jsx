@@ -82,7 +82,7 @@ const Services = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold text-gray-800">Foreign Turkey</h3>
+              <h3 className="text-lg font-bold text-gray-800">Imported Turkey</h3>
               <p className="text-sm text-gray-600 mt-2">
               Free-range chickens raised with care.
               </p>
