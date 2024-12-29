@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/Services.css'
-import eggs from '../assets/Eggspics.jpeg'
+import eggs from '../assets/image6.jpeg'
 import chicken from '../assets\/broiler-chicken-2.jpg'
 import cows from '../assets/Cows.jpg'
 import turkey from '../assets/Turkey.jpg'
